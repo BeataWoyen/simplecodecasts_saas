@@ -46,6 +46,9 @@ gem 'stripe', '~> 1.16.1'
 # Used to hide secret keys
 gem 'figaro', '~>1.0.0'
 
+#####just a little change for heroku push#####
+ ruby '2.0.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
