@@ -1,0 +1,55 @@
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script:700);
+
+// Font Variables
+$font-stack: 'Oleo Script', cursive, sans-serif;
+
+// Styles
+
+/* Users Show Page Styles */
+.user-show-avatar {
+  height: 128px;
+  width: 128px;
+}
+
+.job_title_icon {
+    display: inline-block; 
+    background-color: #337ab7;
+    border: 1px solid #2e6da4;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.well.profile-block {
+    h3{
+        margin-top: 0px;
+    }
+}
+
+.well.contact-info {
+    background-color: #337ab7;
+    border: 1px solid #2e6da4;
+    color: white;
+}
+
+/* Users Index Page Styles */
+.well.white-bg {
+    background-color: white;
+}
+
+img {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #e3e3e3;
+}
+
+.name {
+    font-family: $font-stack;
+    font-size: 400%;
+    color: #424949;
+}
