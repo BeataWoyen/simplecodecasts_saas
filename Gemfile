@@ -61,3 +61,6 @@ gem 'paperclip', '4.2.1'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# suggested by heroku
+ruby '2.3.4'
+
