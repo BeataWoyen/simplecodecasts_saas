@@ -13,15 +13,15 @@ group :production do
 end
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '4.0.3'
 #Use bootstrap library for styles
-gem 'bootstrap-sass', '~> 3.3.5'
+gem 'bootstrap-sass', '3.3.5'
 #Use font awesome library for icons
-gem 'font-awesome-sass', '~> 4.2.0'
+gem 'font-awesome-sass', '4.2.0'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
@@ -38,19 +38,19 @@ gem 'sdoc', '0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 #used for user authentication
-gem 'devise', '~> 3.4.1'
+gem 'devise', '3.4.1'
 
 # Stripe credit card payments
-gem 'stripe', '~> 1.16.1'
+gem 'stripe', '1.16.1'
 
 # Used to hide secret keys
-gem 'figaro', '~> 1.0.0'
+gem 'figaro', '1.0.0'
 
 #Use paperclip for image uploads
-gem 'paperclip', '~> 4.2.1'
+gem 'paperclip', '4.2.1'
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+# gem 'bcrypt', '3.1.7'
 
 # Use unicorn as the app server
 # gem 'unicorn'
