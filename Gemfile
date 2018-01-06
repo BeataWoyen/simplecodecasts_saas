@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-
+# assigns ruby version as suggested by heroku
+ruby '2.3.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
@@ -61,6 +62,5 @@ gem 'paperclip', '4.2.1'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-# suggested by heroku
-ruby '2.3.4'
+
 
